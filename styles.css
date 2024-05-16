@@ -1,0 +1,90 @@
+body {
+    background-color: black;
+    font-family:"Roboto", sans-serif ;
+}
+
+.feedbox {
+    margin: auto;
+    width: 350px;
+    height: auto;
+    margin-top: 10%;
+    margin-bottom: 30px;
+    background-color: white;
+    
+}
+
+.feedboximg img {
+    width: 100%;
+    height: auto;
+}
+
+.feedboxheader {
+    display: flex;
+    align-items: center;
+    margin: 5px;
+    padding-top: 10px;
+    padding-bottom: 5px;
+    padding-right: 5px;
+}
+
+.feedboxheaderlogo {
+    flex-shrink: 0;
+    margin-left: 5px;
+}
+
+.feedboxheaderlogo i {
+    font-size: 30px;
+}
+
+.feedboxheadertext {
+    flex-grow: 1;
+    margin-left: 10px;
+}
+
+.feedboxheadertext h4,
+.feedboxheadertext p {
+    margin: 0;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    line-height: 0.7;
+}
+
+.feedboxheaderpoints i {
+    font-size: 24px;
+}
+
+.feedboxfooter {
+    padding: 10px;
+    font-size: 11px;
+}
+
+.feedboxfooterbar {
+    display: flex;
+    align-items: center;
+}
+
+.feedboxfooterlike,
+.feedboxfootercomment,
+.feedboxfootersend {
+    margin-right: 15px;
+}
+
+.feedboxfooterlike i,
+.feedboxfootercomment i,
+.feedboxfootersend i,
+.feedboxfooterbanner i {
+    font-size: 24px;
+}
+
+.spacer {
+    flex-grow: 1;
+}
+
+.feedboxfooterbanner {
+    margin-left: auto;
+}
+
+.feedboxfooterbanner i {
+    font-size: 24px;
+}
+
